@@ -4,7 +4,6 @@ import { useDispatch } from "react-redux";
 import { addUser } from '../utils/userSlice';
 import { BASE_URL } from '../utils/constants';
 import { useNavigate } from 'react-router-dom';
-
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
   const [emailId, setEmailId] = useState("");
